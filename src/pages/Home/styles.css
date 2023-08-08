@@ -1,0 +1,47 @@
+.homePage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+
+.homePage .title{
+    padding: 0.5rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4b9093;
+    border-radius: 0 0 4px 4px;
+}
+
+.title h1{
+    font-weight: bold;
+    font-family: initial;
+    width: 50%;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.title img{
+    margin-left: 1rem;
+    width: 100px;
+    height: 50px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.littleContainer{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
