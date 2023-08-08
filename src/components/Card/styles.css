@@ -1,0 +1,9 @@
+#card {
+  border: 1px solid gray;
+  padding-top: 12px;
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 8px;
+}
